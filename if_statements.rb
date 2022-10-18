@@ -10,19 +10,19 @@
   # if it is snowy, print "coat"
   # if it is icy, print "yak traks"
 
-weather = "sunny"
+#weather = "rainy"
 
-if weather == "sunny"
-  p "sunscreen"
-elsif weather == "rainy"
-  p "umbrella"
-elsif weather == "snowy"
-  p "coat"
-elsif weather == "icy"
-  p "yak traks"
-else
-  p "good to go!"
-end
+#if weather == "sunny"
+  #p "sunscreen"
+#elsif weather == "rainy"
+  #p "umbrella"
+#elsif weather == "snowy"
+  #p "coat"
+#elsif weather == "icy"
+  #p "yak traks"
+#else
+  #p "good to go!"
+#end
 
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'coat'
@@ -41,10 +41,16 @@ end
 # Experiment with manipulating the value held within num_quarters
 # to make sure both conditions can be achieved.
 
-num_quarters = 0
+num_quarters = 3
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+if num_quarters >= 2
+  puts "I have enough money for a gumball."
+else 
+  puts "I don't have enough money for a gumball."
+end
+
+#puts "I have enough money for a gumball"
+#puts "I don't have enough money for a gumball"
 
 
 #####################
@@ -61,5 +67,12 @@ puts "I don't have enough money for a gumball"
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
 
-cups_of_flour = 1
-has_sauce = true
+cups_of_flour = 3
+has_sauce = true 
+
+if cups_of_flour >= 2 && has_sauce == true
+  puts "I can make pizza."
+elsif cups_of_flour < 2 || has_sauce == false 
+  puts "I cannot make pizza."
+end 
+
