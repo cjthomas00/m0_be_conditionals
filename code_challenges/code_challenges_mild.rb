@@ -1,6 +1,7 @@
-number = 2
+num = 17
 
-if number == number.odd?
+
+if num = num.even?
     p "Even"
 else 
     p "odd"
